@@ -22,6 +22,9 @@ app.get('/', function(req, res) {
   res.render('index.html', { });
 });
 
+app.get('/portfolio', function(req, res) {
+  res.render('portfolio.html', { });
+});
 
 ///////////////////////////////////////////////////////////////////////////////
 // RUN CONFIGURATION                                                         //
