@@ -3,7 +3,7 @@ var ejs = require("ejs");
 var app = express();
 
 app.use(express.logger());
-app.use('/static', express.static(__dirname + '/public'));
+app.use('/static', express.static(__dirname + '/static'));
 app.engine('html', ejs.renderFile);
 
 app.get('/', function(req, res) {
