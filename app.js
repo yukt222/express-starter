@@ -1,10 +1,13 @@
 var express = require("express");
+var ejs = require("ejs");
 var app = express();
 
 app.use(express.logger());
+app.use('/static', express.static(__dirname + '/public'));
+app.engine('html', ejs.renderFile);
 
 app.get('/', function(req, res) {
-    res.send('Hello World!');
+  res.render('index.html', { });
 });
 
 var port = Number(process.env.PORT || 5000);
