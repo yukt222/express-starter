@@ -4,7 +4,8 @@
   "description": "a basic express web app",
   "main": "app.js",
   "dependencies": {
-    "express": "3.x"
+    "express": "3.x",
+    "ejs": "0.8.x"
   },
   "engines": {
     "node": "0.10.x"
