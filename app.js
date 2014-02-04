@@ -22,8 +22,8 @@ app.get('/', function(req, res) {
   res.render('index.html', { });
 });
 
-app.get('/portfolio', function(req, res) {
-  res.render('portfolio.html', { });
+app.get('/test', function(req, res) {
+  res.render('test.html', { });
 });
 
 ///////////////////////////////////////////////////////////////////////////////
