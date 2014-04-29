@@ -16,7 +16,7 @@ $(document).ready(function() {
   }
   var begin = "True";
 
-  var curLevel = 7;
+  var curLevel = 0;
   var levelText = "Level 1 - React 1 out of 5 balls";
   var color = ['red','green','yellow','blue','black'];
 
